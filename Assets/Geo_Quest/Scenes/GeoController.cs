@@ -20,13 +20,13 @@ public class GeoController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
 
-            transform.position += new Vector3(0, 1, 0);
+            transform.position += new Vector3(0, 0.5, 0);
           
         }
 
         if (Input.GetKeyDown(KeyCode.D)) 
         { 
-            transform.position += new Vector3(1, 0, 0); 
+            transform.position += new Vector3(0.5, 0, 0); 
         }
             
 
